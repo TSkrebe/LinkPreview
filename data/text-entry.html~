@@ -1,0 +1,15 @@
+<html>
+<head>
+    <style type="text/css" media="all">
+      p {
+        margin: 10px;
+      }
+      body {
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <p rows="13" cols="33" id="text-area"></p>
+  </body>
+</html>

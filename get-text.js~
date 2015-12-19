@@ -1,0 +1,8 @@
+// When the user hits return, send the "text-entered"
+// message to main.js.
+// The message payload is the contents of the edit box.
+var textArea = document.getElementById("text-area");
+
+self.port.on("show", function onShow() {
+    textArea.innerHTML = "ahaa";
+});
